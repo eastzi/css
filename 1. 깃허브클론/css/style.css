@@ -1,0 +1,317 @@
+:root {
+    --box-color: rgb(246, 248, 250);
+    --border-color: #ccc;
+    --more-color: rgb(9, 105, 218);
+    --basic-font: 14px;
+}
+
+
+/* 헤더 */
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(36, 41, 47);
+}
+
+.logo {
+    margin: 8px 5px 8px 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.in-s {
+    margin: 18px 15px 17px 0;
+    padding: 10px;
+    width: 270px;
+    height: 30px;
+    background-color: rgb(36, 41, 47);
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.h-end {
+    margin-left: 1050px;
+    width: 150px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h-end img {
+    width: 25px;
+    height: 25px;
+}
+
+.plus-select {
+    color: #ccc
+}
+
+.end-menu {
+    color: #fff;
+}
+
+.end-menu img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+/* 메인 */
+main {
+    /* background-color: aqua; */
+    margin: 0 auto;
+    width: 720px;
+}
+
+.enter {
+    margin-top: 40px;
+}
+
+.new h2 {
+    font-weight: 500;
+}
+
+.new p {
+    font-size: var(--basic-font);
+}
+
+.new span {
+    font-size: var(--basic-font);
+}
+
+.line {
+    margin: 20px 0;
+}
+
+.name {
+    display: flex;
+}
+
+.name dt {
+    font-size: var(--basic-font);
+    font-weight: bold;
+}
+
+.name > span {
+    padding-top: 28px;
+    margin-left: 8px;
+    width: 20px;
+    font-size: 24px;
+}
+
+.star {
+    color: red;
+}
+.owner details {
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    border: 1px solid var(--border-color);
+    background-color: var(--box-color);
+}
+
+.owner summary {
+    margin-top: 8px ;
+    text-align: center;
+}
+
+.owner img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.reposi input {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    background-color: var(--box-color);
+}
+
+.octo {
+    font-size: var(--basic-font);
+    margin-top: 8px;
+}
+.octo>span {
+    color: green;
+}
+
+.option  {
+    margin-top: 16px;
+}
+
+.option dt {
+    font-size: var(--basic-font);
+}
+
+.option span {
+    font-weight: bold;
+}
+.option input {
+    margin-top: 5px;
+    width: 720px;
+    height: 40px;
+    border: 1px solid var(--border-color);
+    background-color: var(--box-color);
+    border-radius: 5px;
+}
+
+.cap-pu, 
+.cap-pr {
+    display: flex;
+    align-items: center;
+}
+.cap-pu {
+    margin-bottom: 15px;
+}
+.cap-img {
+    margin: 0 10px;
+}
+.cap-txt {
+    font-size: var(--basic-font);
+}
+.cap-txt label {
+    font-weight: bold;
+}
+
+.skip {
+    font-size: var(--basic-font);
+    margin-bottom: 16px;
+}
+.skip h4{
+    margin-bottom: 3px;
+}
+
+.check {
+    display: flex;
+    margin-bottom: 16px;
+}
+.check input {
+    margin-top: 5px;
+}
+.check div {
+    margin-left:10px;
+    font-size: 12px;
+}
+.check div>label {
+    font-size: var(--basic-font);
+    font-weight: bold;
+}
+.check div>p>span {
+    color: var(--more-color);
+}
+
+.add,
+.choose {
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.add h4,
+.choose h4 {
+    font-size: var(--basic-font);
+    margin-bottom: 10px;
+}
+
+.add p,
+.choose p {
+    margin-bottom: 10px;
+}
+.add p>span,
+.choose p>span {
+    color: var(--more-color);
+}
+.temp {
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+    border: 1px solid var(--border-color);
+    background-color: var(--box-color);
+    text-align: center;
+    padding-top: 5px;
+}
+
+.license {
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid var(--border-color);
+    background-color: var(--box-color);
+    text-align: center;
+    padding-top: 5px;
+}
+
+.war {
+    display: flex;
+}
+.war p {
+    margin-left: 3px;
+    font-size: var(--basic-font);
+}
+
+.create {
+    width: 155px;
+    height: 35px;
+    border: 1px solid rgb(148, 211, 162);
+    border-radius: 5px;
+    background-color: rgb(148, 211, 162);
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* 하단 */
+footer {
+    margin: 0 auto;
+    width: 990px;
+}
+
+.line02 {
+    margin: 30px 0;
+}
+.footer-in {
+    display: flex;
+    margin-bottom: 50px;
+}
+.f-logo {
+    margin-right: 15px;
+    display: flex;
+}
+
+.f-logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.f-logo p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    font-size: 12px;
+}
+.menu02 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 680px;
+    height: 35px;
+    font-size: 12px;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- 헤더 -->
+        <header>
+            <div class="logo">
+                <img src="images/header/logo.JPG" alt="logo">
+            </div>
+            <input type="search" placeholder="Search or jump to..." class="in-s">
+            <ul class="menu">
+                <li><a href="#">Pull requests</a></li>
+                <li><a href="#">Issues</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Explore</a></li>
+            </ul>
+            <div class="h-end">
+                <img src="images/header/alarm.JPG" alt="alarm">
+                <details class="plus-select">
+                    <summary>
+                        +
+                    </summary>
+                </details>
+                <details class="end-menu">
+                    <summary>
+                        <img src="images/menu.png" alt="">
+                    </summary>
+                </details>
+            </div>
+        </header>
+        <!-- 메인 -->
+        <main>
+            <div class="enter">
+                <div class="new">
+                    <h2>Create a new repository</h2>
+                    <p>A repository contains all project files, including the revision history. 
+                        Already have a project repository elsewhere?</p>
+                    <span><a href="#">Import a repository.</a></span>
+                </div>
+                <hr class="line">
+                <div class="name">
+                    <dl class="owner">
+                        <dt>Owner<span class="star"> *</span></dt>
+                        <details>
+                            <summary role="button">
+                                <img src="images/menu.png" alt="menu">
+                                <span>eastzi</span>
+                            </summary>
+                        </details>
+                    </dl>
+                    <span> / </span>
+                    <dl class="reposi">
+                        <dt>Repository name<span class="star"> *</span></dt>
+                        <input type="text">
+                    </dl>
+                </div>
+                <p class="octo">Great repository names are short and memorable. 
+                    Need inspiration? How about <spna>jubilant-octo-goggles</spna>?
+                <dl class="option">
+                    <dt><span>Description</span> (optional)</dt>
+                    <input type="text">
+                </dl>
+                <hr class="line">    
+                <div class="cap-pu">
+                    <input type="radio" name="choice1">
+                    <div class="cap-img">
+                        <img src="images/main/public.JPG" alt="">
+                    </div>
+                    <div class="cap-txt">
+                        <label for="public">Public</label>
+                        <p>Anyone on the internet can see this repository. You choose who can commit.</p>
+                    </div>
+                </div>
+                <div class="cap-pr">
+                    <input type="radio" name="choice1">
+                    <div class="cap-img">
+                        <img src="images/main/private.JPG" alt="">
+                    </div>
+                    <div class="cap-txt">
+                        <label for="private">Private</label>
+                        <p>Anyone on the internet can see this repository. You choose who can commit.</p>
+                    </div>
+                </div>
+                <hr class="line"> 
+                <div>
+                    <div class="skip">
+                        <h4>Initialize this repository with:</h4>
+                        <p>Skip this step if you're importing an existing repository.</p>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox">
+                        <div>
+                            <label for="">Add a README file</label>
+                            <p>This is where you can write a long description for your project.<span> Learn more.</span></p>
+                        </div>
+                    </div>
+                    <div class="add">
+                        <h4>Add.gitgnore</h4>
+                        <p>Choose which files not to track trom a list of templates.<span> Learn more.</span></p>
+                        <details class="temp">
+                            <summary>
+                                .gitignore template:<span> None</span>
+                            </summary>
+                        </details>
+                    </div>
+                    <div class="choose">
+                        <h4>Choose a license</h4>
+                        <p>A license tells others what they can and can't do with your code.<span> Learn more.</span></p>
+                        <details class="license">
+                            <summary>
+                                License:<span> None</span>
+                            </summary>
+                        </details>
+                    </div>
+                </div>
+                <hr class="line">
+                <div class="war">
+                    <div>
+                        <img src="images/main/warning.JPG" alt="warning">
+                    </div>
+                    <p>You are creating a private repository in your personal account.</p>
+                </div>
+                <hr class="line">
+                <button type="button" class="create">Create repository</button>
+            </div>
+        </main>
+        <!-- 하단 -->
+        <footer>
+            <div>
+                <hr class="line02">
+                <div class="footer-in">
+                    <div class="f-logo">
+                        <img src="images/footer/logo.JPG" alt="">
+                        <p>© 2022 GitHub, Inc.</p>
+                    </div>
+                    <ul class="menu02">
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Contact GitHub</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
